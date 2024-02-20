@@ -17,11 +17,11 @@ Here are some ideas to get you started:
 <div align="center">
   
   [![github-stats-dark](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.dev)
+  ![python](https://img.shields.io/badge/🐍Python-★★★★☆-brightgreen)
+
 
   [![github-stats-dark](https://github-readme-stats.vercel.app/api?username=paco-pastor&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
   [![github-stats-light](https://github-readme-stats.vercel.app/api?username=paco-pastor&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
-  [![github-top-langs-dark](https://github-readme-stats.vercel.app/api/top-langs/?username=paco-pastor&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-  [![github-top-langs-light](https://github-readme-stats.vercel.app/api/top-langs/?username=paco-pastor&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
 
 </div>
 

@@ -29,6 +29,7 @@ Here are some ideas to get you started:
 ![HTML](https://img.shields.io/badge/HTML-black?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-black?style=for-the-badge&logo=css3)
 ![Javascript](https://img.shields.io/badge/Javascript-black?style=for-the-badge&logo=javascript)
+![Svelte](https://img.shields.io/badge/Svelte-black?style=for-the-badge&logo=svelte)
 ![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
 
 ### Game dev

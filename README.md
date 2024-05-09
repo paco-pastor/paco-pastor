@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 ## Techs
 ### Back
   
-![Python](https://img.shields.io/badge/Python_3-black?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python)
 ![Node JS](https://img.shields.io/badge/Node_JS-black?style=for-the-badge&logo=node.js)
 
 ### Front

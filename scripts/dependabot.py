@@ -1,22 +1,31 @@
-from subprocess import check_output
+import json
+import subprocess
 
+from termcolor import cprint
 
-# Function to get the latest version of a package
-def get_latest_version(package_name):
-    output = check_output(["pip", "index", "versions", package_name]).decode("utf-8")
-    output.replace("Available versions: ", "")
-    start = output.find("(")
-    end = output.find(")")
-    return output[start + 1 : end]
+output = subprocess.check_output(["pip", "list", "--outdated", "--format", "json"])
+outdated_packages = json.loads(output)
 
+with open("requirements.txt", "r") as file:
+    requirements = file.readlines()
 
-# List of packages with their current versions (example here)
-packages = {
-    "gunicorn": "21.2.0",
-}
+required_packages = {}
+for line in requirements:
+    if "==" in line:
+        required_packages[line.split("==")[0]] = line.split("==")[1].strip()
 
+print("Outdated packages:\n")
+to_update = []
+for package in outdated_packages:
+    if package["name"] in required_packages:
+        to_update.append(package)
+        print(package["name"], end=" ")
+        cprint(package["version"], "red", end="")
+        print(" -> ", end="")
+        cprint(package["latest_version"], "green")
 
-for package in packages.keys():
-    lts = get_latest_version(package)
-    if packages[package] != lts:
-        print(f"💥{package}💥 Version : {packages[package]}, LTS : {lts}")
+if to_update:
+    print(f"Please use the following comand to update packages :")
+    cprint(f"pip install {" ".join([p["name"] for p in to_update])} --upgrade", "green")
+else:
+    print("All packages are up to date.")

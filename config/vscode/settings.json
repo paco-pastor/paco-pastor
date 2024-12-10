@@ -1,0 +1,7 @@
+{
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open"
+}

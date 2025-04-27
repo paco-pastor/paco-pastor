@@ -43,7 +43,8 @@ Here are some ideas to get you started:
 [![Gitmoji](https://img.shields.io/badge/😜_Gitmoji-black?style=for-the-badge)](https://gitmoji.dev)
 
 <div align="center">
-  
+
+<img src="https://media3.giphy.com/avatars/Animawarriors/mhWmAqMIgCDj.gif">
   
 </div>
 

@@ -20,18 +20,18 @@ Here are some ideas to get you started:
 
 ## Techs
 ### Back
-  
+
 ![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python)
 ![Node JS](https://img.shields.io/badge/Node_JS-black?style=for-the-badge&logo=node.js)
 ![Docker](https://img.shields.io/badge/Docker-black?style=for-the-badge&logo=docker)
 
 ### Front
 
+![Vue](https://img.shields.io/badge/Vue-black?style=for-the-badge&logo=vuedotjs)
+![Svelte](https://img.shields.io/badge/Svelte-black?style=for-the-badge&logo=svelte)
 ![HTML](https://img.shields.io/badge/HTML-black?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-black?style=for-the-badge&logo=css3)
 ![Javascript](https://img.shields.io/badge/Javascript-black?style=for-the-badge&logo=javascript)
-![Svelte](https://img.shields.io/badge/Svelte-black?style=for-the-badge&logo=svelte)
-![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
 
 ### Game dev
 

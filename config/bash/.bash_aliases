@@ -1,3 +1,6 @@
+# Paco
+alias ig="./home/paco/scripts/init_github.sh"
+
 # Git
 alias gs="git status"
 alias gd="git diff"

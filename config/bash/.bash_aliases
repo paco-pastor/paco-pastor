@@ -1,5 +1,5 @@
 # Paco
-alias ig="./home/paco/scripts/init_github.sh"
+alias ig="/bin/sh /home/paco/scripts/init_github.sh"
 
 # Git
 alias gs="git status"
